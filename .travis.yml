@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+  - openjdk11
+
+script: ./mvnw package
+
+cache:
+  directories:
+  - ~/.m2/repository
+  - ~/.m2/wrapper
+
